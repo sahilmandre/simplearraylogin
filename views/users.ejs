@@ -1,0 +1,10 @@
+<%- include("../partials/header.ejs") %>  
+
+<h1>The List of users</h1>
+<ul>
+    <% names.forEach(name=>{ %>
+        <li><%= name %></li>
+    <% }) %>
+</ul>
+
+<%- include("../partials/footer.ejs") %>
